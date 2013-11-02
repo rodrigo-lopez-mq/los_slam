@@ -1,0 +1,37 @@
+roslaunch openni_launch openni.launch
+
+roscreate-pkg prueba2 std_msgs rospy roscpp sensor_msgs opencv2 cv_bridge
+
+ lsusb
+
+rosrun depthimage_to_laserscan depthimage_to_laserscan image:=/camera/depth/image_raw
+
+rosrun gmapping slam_gmapping scan:=base_scan
+
+roslaunch hector_slam_launch tutorial.launch
+
+rosrun ROSARIA RosAria /RosAria/cmd_vel:=cmd_vel
+
+rosrun ROSARIA android 
+rosrun ROSARIA rob_key 
+rosrun ROSARIA RosAria _port:=localhost:8101
+.imagen
+.mandar
+
+rosrun ROSARIA RosAria _port:=/dev/ttyUSB0
+chmod a+rw /dev/ttyS0
+sudo chmod a+rw /dev/ttyUSB0
+rosrun rgbdslam rgbdslam
+
+rosrun ROSARIA RosAria _port:=/dev/ttyUSB0
+
+export ROS_MASTER_URI=http://hal:11311
+
+$ rosrun rqt_gui rqt_gui
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ssssp/los_slam.git
+git push -u origin master

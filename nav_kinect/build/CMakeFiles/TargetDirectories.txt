@@ -1,0 +1,15 @@
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/clean-test-results.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/rosbuild_precompile.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/rospack_genmsg.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/rospack_gensrv.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/test.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/test-future.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/test-results.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/test-results-run.dir
+/home/r/ros_workspace/los_slam/nav_kinect/build/CMakeFiles/tests.dir

@@ -1,0 +1,21 @@
+<package>
+  <description brief="nav_kinect">
+
+     nav_kinect
+
+  </description>
+  <author>R</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/nav_kinect</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="roslib"/>
+
+</package>
+
+
