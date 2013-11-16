@@ -1,5 +1,5 @@
 roslaunch openni_launch openni.launch
-
+https://github.com/ssssp/los_slam.git
 roscreate-pkg prueba2 std_msgs rospy roscpp sensor_msgs opencv2 cv_bridge
 
  lsusb
@@ -29,11 +29,13 @@ export ROS_MASTER_URI=http://hal:11311
 
 $ rosrun rqt_gui rqt_gui
 
-touch README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/ssssp/los_slam.git
+ git add .
+git commit -m 'adding'
 git push -u origin master
- prompt> git commit -m "Refactor to simplify" -a
+
+rosrun amcl amcl scan:=base_scan
+
+roslaunch amcl amcl_omni.launch
+rosrun map_server map_server mymap2.yaml 
+
 

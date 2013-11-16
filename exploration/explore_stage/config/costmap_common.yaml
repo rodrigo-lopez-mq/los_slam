@@ -1,0 +1,14 @@
+map_type: costmap
+transform_tolerance: 0.5
+obstacle_range: 2.5
+max_obstacle_height: 2.0
+raytrace_range: 3.0
+inscribed_radius: 0.35
+circumscribed_radius: 0.4
+inflation_radius: 0.6
+cost_scaling_factor: 15.0
+lethal_cost_threshold: 100
+
+observation_sources: camera_link
+
+camera_link: {sensor_frame: camera_link, data_type: LaserScan, marking: true, clearing: true, topic: scan}
